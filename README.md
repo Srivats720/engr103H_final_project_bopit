@@ -13,3 +13,5 @@ These are the possible commands given to the players. They are randomized.
 When the player correctly executes each command, the score will increment by 1. As the score increases, the speed at which the commands are given will also increase.
 
 2 players can play this game, so the high score of both players will be stored after the end of the game and displayed before every round starts.
+
+Video Demo: https://youtu.be/Njo2zHew4C8
