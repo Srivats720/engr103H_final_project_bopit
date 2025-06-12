@@ -1,10 +1,15 @@
-# engr103H_final_project_bopit
-My final project is recreating Bop It using the Arduino CPX board. I will be using the buttons and the accelerometer to get inputs from the players. The player has to give
-the correct input based on the given command. 
-1) The LED lights will turn pink, representing the "Bop it" command. The player has to hit the right button before the LED light turns off to earn a point
+# ENGR 103H Final Project: Bop It game
+My final project is recreating Bop It using the Arduino CPX board. The player has to give the correct input to the commands given by the CPX board. The commands are given through the NeoPixel lights in the CPX board.
+The inputs will be taken using the switch, the two buttons, and the accelerometer. 
+1) The switch is used to toggle between players 1 and 2
+2) The two buttons are used for the Bop It and Pull It functionality.
+3) The accelerometer is used for the Shake it functionality.
+
+These are the possible commands given to the players. They are randomized. 
+1) The LED lights will turn purple, representing the "Bop it" command. The player has to hit the right button before the LED light turns off to earn a point
 2) The LED light will turn yellow, representing the "twist it" command. The player has to shake the CPX board before the LED light turns off
 3) The LED light will turn purple, representing the "pull it" command. The player has to press both buttons before the LED lights turn off
 
-When the player correctly executes each of the commands, the score will increment, and as the score gets higher, the speed at which the LED light turns off will increase.
+When the player correctly executes each command, the score will increment by 1. As the score increases, the speed at which the commands are given will also increase.
 
-2 players can play this game, so the high score of both players will be scored after the end of the game and displayed before the game starts
+2 players can play this game, so the high score of both players will be stored after the end of the game and displayed before every round starts.
